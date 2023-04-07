@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.firstdiv{
+    width: 375px;
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    border-radius: 0px 0px 32px 32px;
+}
+.circle{
+    width: 140px;
+    height: 140px;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 24px;
+
+}
+.circle span{
+    font-weight: 800;
+    font-size: 56px;
+    line-height:72px;
+    color: white;
+}
+.circle p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.85px;
+    color: #CAC9FF;
+} 
+.firstdiv h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.45px;
+    color:#CAC9FF ;
+    margin-top: 24px;
+}
+.firstdiv h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.27px;
+    color: white;
+    margin-top: 24px;
+
+}
+.firstdiv > p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.85px;
+    color: #CAC9FF;
+    margin-top: 8px;
+    width: 260px;
+}
+.seconddiv h1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.45px;
+    color: #303B59;
+    margin-top: 24px;
+}
+.component{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 12px;
+}
+.component div{
+    display: flex;
+}
+.seconddiv{
+    width: 315px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.component div p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.85px;
+    
+}
+.component > p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.85px;
+    color: #303B59;
+    color: rgba(0, 0, 0, 0.5);
+}
+.component span{
+    opacity: 1;
+    color: #303B59;
+}
+.Memory div p{
+    color: #FFB21E;
+}
+.Verbal div p{
+    color: #00BB8F;
+}
+.Visual div p{
+    color: #1125D6;
+}
+.Reaction div p{
+    color: #FF5555;
+}
+.Memory{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+}
+.Verbal{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+}
+.Visual{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+}
+.Reaction{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+}
+.components{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+}
+button{
+    all:unset;
+    background: #303B59;
+    border-radius: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.45px;
+    color: white;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    margin-top: 24px;
+}
+.maindiv{
+    margin: auto;
+    
+}
+@media (min-width: 1440px){
+    .maindiv{
+        display: flex;
+        margin: auto;
+        width: 736px;
+        margin-top: 200px;
+        border-radius: 32px;
+    }
+    .firstdiv{
+        width: 368px;
+        border-radius: 32px;
+    }
+    .circle{
+        width: 200px;
+        height: 200px;
+    }
+    .circle span{
+        font-size: 72px;
+    }
+    .circle p{
+        font-size: 18px;
+        line-height: 23.45px;
+        margin-top: 4px;
+    }
+    .firstdiv h2{
+        font-size: 24px;
+        line-height: 31.27px;
+        margin-top: 38px;
+    }
+    .firstdiv h1{
+        font-size: 32px;
+        line-height: 41.7px;
+        margin-top: 28px;
+    }
+    .firstdiv > p{
+        font-size: 18px;
+        line-height: 23.45px;
+        margin-top: 14px;
+    }
+    .component{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 28px;
+        padding-bottom: 16px   
+    }
+    button:hover{
+        background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    }
+}
+
+    
+
+    
